@@ -3,7 +3,6 @@ import java.util.*;
 // [value, weight]
 public class FractionalKnapsackProblem {
     static class ItemComparator implements Comparator<int[]>{
-
         @Override
         public int compare(int[] a, int[] b) {
             double o1 = (1.0 * a[0]) / a[1];
